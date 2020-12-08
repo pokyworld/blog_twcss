@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="mb-4">
-                    <label for="password_confirmation" class="sr-only">Password again</label>
+                    <label for="password_confirmation" class="sr-only">Repeat Password</label>
                     <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Repeat your password" class="bg-gray-200 border-2 w-full p-4 rounded-lg @error('password_confirmation') border-red-500 @enderror" value="">
 
                     @error('password_confirmation')
